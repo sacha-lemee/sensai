@@ -34,8 +34,8 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama serve
 
 # SensAI
-git clone git@github.com:EpitechPGE3-2026/G-AIA-500-PAR-5-1-sensai-1.git
-cd G-AIA-500-PAR-5-1-sensai-1
+git clone git@github.com:sacha-lemee/SensAI.git
+cd SensAI
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e .
 cp .env.example .env
