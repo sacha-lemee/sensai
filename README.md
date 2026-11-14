@@ -170,10 +170,14 @@ The full scenario with the expected answers is in [docs/SCENARIO.md](docs/SCENAR
 - **The CLI needs Docker to start**: the sandbox connects to Docker at start, even if you never run a command.
 - **One model server for every agent**: with `-m`, each agent's model must exist where the main model was found, local or cloud.
 
+## Contributing
+
+Contributions are welcome: read [CONTRIBUTING.md](CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT.md).
+To report a vulnerability, see [SECURITY.md](SECURITY.md).
+
 ## License
 
 This project is licensed under the **MIT License**, see [LICENSE.md](LICENSE.md). It belongs in equal shares to its
-three [authors](AUTHORS.md). To contribute, read [CONTRIBUTING.md](CONTRIBUTING.md) and the
-[code of conduct](CODE_OF_CONDUCT.md). To report a vulnerability, see [SECURITY.md](SECURITY.md).
+three [authors](AUTHORS.md).
 
 ![SensAI MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
