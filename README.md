@@ -170,6 +170,10 @@ The full scenario with the expected answers is in [docs/SCENARIO.md](docs/SCENAR
 - **The CLI needs Docker to start**: the sandbox connects to Docker at start, even if you never run a command.
 - **One model server for every agent**: with `-m`, each agent's model must exist where the main model was found, local or cloud.
 
+## Epitech warning
+
+This project was built for the Epitech curriculum. **Epitech students: do not copy this code for your own project.** Copying is forbidden at Epitech and is treated as cheating. Read it to learn if you want, but write your own.
+
 ## Contributing
 
 Contributions are welcome: read [CONTRIBUTING.md](CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT.md).
